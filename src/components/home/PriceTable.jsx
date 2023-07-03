@@ -10,12 +10,12 @@ import { TbSteeringWheel } from 'react-icons/tb';
 const PriceTable = () => {
     return (
         <main className='bg-[#0f0f0f] '>
-            <div className='container py-28'>
+            <div className='container py-16'>
                 <div className='text-center text-white p-14'>
                     <h1 className='my-5 text-4xl font-bold'>Price Table</h1>
                     <p className='text-[#6e7467]'>For you, we provide a wide range of different services,<br /> the main of which are presented below the parts.</p>
                 </div>
-                <div className='grid gap-6 md:grid-cols-3'>
+                <div className='grid gap-8 md:grid-cols-3'>
 
                     <div className='relative'>
                         <Image className='object-center w-full h-60' src={Price2} alt=''></Image>
