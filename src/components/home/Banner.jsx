@@ -16,10 +16,10 @@ const Banner = () => {
         <main>
             <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
                 <SwiperSlide>
-                    <Image src={banner1} alt=''></Image>
+                    <Image className='object-cover w-full h-screen' src={banner1} alt=''></Image>
                 </SwiperSlide>
                 <SwiperSlide>
-                <Image src={banner2} alt=''></Image>
+                <Image className='object-cover w-full h-screen' src={banner2} alt=''></Image>
                 </SwiperSlide>
                 {/* <SwiperSlide>Slide 3</SwiperSlide>
                 <SwiperSlide>Slide 4</SwiperSlide>

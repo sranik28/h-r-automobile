@@ -1,10 +1,12 @@
 import Banner from '@/components/home/Banner'
-import Image from 'next/image'
+import PriceTable from '@/components/home/PriceTable'
+
 
 export default function Home() {
   return (
     <main>
       <Banner />
+      <PriceTable />
     </main>
   )
 }
