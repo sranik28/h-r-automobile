@@ -15,7 +15,7 @@ const PriceTable = () => {
                     <h1 className='my-5 text-4xl font-bold'>Price Table</h1>
                     <p className='text-[#6e7467]'>For you, we provide a wide range of different services,<br /> the main of which are presented below the parts.</p>
                 </div>
-                <div className='grid gap-8 md:grid-cols-3'>
+                <div className='grid gap-8 md:grid-cols-3 pb-14'>
 
                     <div className='relative'>
                         <Image className='object-center w-full h-60' src={Price2} alt=''></Image>
